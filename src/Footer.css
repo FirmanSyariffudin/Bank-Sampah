@@ -1,0 +1,20 @@
+.Footer {
+    display: flex;
+    background-color: rgb(108, 194, 88);
+    /* margin-top: 30px; */
+    position: sticky;
+    height: 60px;
+    top: calc(100% - 60px);
+    margin-bottom: -60px;
+}
+
+.Footer1, .Footer2, .Footer3, .Footer4, .Footer5 {
+    background-color: rgb(108, 194, 88);
+    text-align: center;
+    width: 20%;
+}
+
+p {
+    margin: 5px 0;
+    color: white;
+}

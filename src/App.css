@@ -1,0 +1,157 @@
+.container{
+  min-height: 100vh;
+  background-color: #406FDC;
+  font-family: helvetica;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+.title{
+  min-height: 3rem;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.title-text{
+  font-size: "1.5rem";
+  color: white;
+  font-weight: bold;
+  display: inline-flex;
+  line-height: 2rem;
+}
+
+.title-box{
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+}
+
+.bg-circle{
+  width: 200vw;
+  height: 200vw;
+  border-radius: 100vw;
+  background-color: white;
+  position: absolute;
+  margin-left: -1rem;
+  left: -50vw;
+  z-index: 0;
+}
+
+.illust {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  padding-top: 20vw;
+}
+
+.white-button-on-blue {
+  line-height: 1rem;
+  font-size: 1rem;
+  border: 3px solid white;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: #406fdc;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  margin: 2rem auto 0 auto;
+}
+.white-button-on-white {
+  line-height: 1rem;
+  font-size: 1rem;
+  border: 3px solid #406fdc;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: #406fdc;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+}
+
+.blue-button-on-white {
+  line-height: 1rem;
+  font-size: 1rem;
+  border: 3px solid #406fdc;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #406fdc;
+  margin: 0 0 0 1rem;
+}
+
+.auth-notice-bottom-box {
+  background-color: white;
+  text-align: center;
+  position: sticky;
+  top: calc(100vh - 6rem);
+  border-radius: 1rem;
+  z-index: 99;
+  -webkit-box-shadow: 3px 10px 38px 0px rgba(191, 191, 191, 0.8);
+  -moz-box-shadow: 3px 10px 38px 0px rgba(191, 191, 191, 0.8);
+  box-shadow: 3px 10px 38px 0px rgba(191, 191, 191, 0.8);
+}
+  
+.auth-notice-bottom-box-background{
+  margin: 1rem auto;
+  display: inline-flex;
+}
+
+.join-us{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem 0rem;
+  margin-top:-6rem;
+}
+
+.background{
+  position: relative;
+}
+
+.Menu {
+  background-color: #41414b;
+  height: fit-content;
+}
+
+.logo {
+  text-align: center;
+}
+
+.img-logo{
+  height: 23vh;
+  width: 90%;
+  margin: 25px 0;
+}
+
+.sub-menu {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.pg-sub-menu{
+  width: 20vw;
+  margin: 0 6.7vw;
+}
+
+.pg-sub-menu p {
+  text-align: center;
+  font-weight: lighter;
+  line-height: 15px;
+  color: white;
+}
+
+.img-sub-menu {
+  width: 100%;
+  height: 20vw;
+  background-color: aliceblue;
+  border-radius: 10vw;
+  box-shadow: 0 8px 6px -6px black;
+}
